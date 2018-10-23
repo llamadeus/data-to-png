@@ -1,6 +1,6 @@
 {
 	"name": "data-to-png",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "A Javascript utility that lets you encode any data to png.",
 	"main": "index.js",
 	"scripts": {
