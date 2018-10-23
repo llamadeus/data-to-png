@@ -51,7 +51,7 @@ app.listen(8080, function () {
 
 The server will respond with the following png:
 
-![jquery-3.1.1.min.js.png](https://github.com/lamadeus/data-to-png/blob/master/examples/express/jquery-3.1.1.min.js.png)
+![jquery-3.1.1.min.js.png](https://raw.githubusercontent.com/lamadeus/data-to-png/master/examples/express/jquery-3.1.1.min.js.png)
 
 ## Contributing
 
