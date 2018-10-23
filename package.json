@@ -1,0 +1,30 @@
+{
+	"name": "data-to-png",
+	"version": "1.0.0",
+	"description": "A Javascript utility that lets you encode any data to png.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/lamadeus/data-to-png.git"
+	},
+	"keywords": [
+		"javascript",
+		"encode",
+		"decode",
+		"png"
+	],
+	"author": "lamadeus <lamadeus@uber.space>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/lamadeus/data-to-png/issues"
+	},
+	"homepage": "https://github.com/lamadeus/data-to-png#readme",
+	"dependencies": {
+		"buffer": "^5.2.1",
+		"crc": "^3.8.0",
+		"zlib": "^1.0.5"
+	}
+}
