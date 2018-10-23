@@ -4,6 +4,8 @@
 	"description": "A Javascript utility that lets you encode any data to png.",
 	"main": "index.js",
 	"scripts": {
+		"build": "npx del cjs && npx rollup -c",
+		"prepublishOnly": "npx del cjs && npx rollup -c",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
@@ -26,5 +28,9 @@
 		"buffer": "^5.2.1",
 		"crc": "^3.8.0",
 		"zlib": "^1.0.5"
+	},
+	"devDependencies": {
+		"del-cli": "^1.1.0",
+		"rollup": "^0.66.6"
 	}
 }

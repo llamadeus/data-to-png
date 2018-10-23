@@ -1,1 +1,3 @@
-export * from './es';
+'use strict';
+
+module.exports = require('./cjs/index');
