@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lamadeus/data-to-png.git"
+  },
+  "author": "lamadeus <lamadeus@uber.space>",
+  "license": "MIT",
+  "dependencies": {
+    "data-to-png": "^0.0.1",
+    "express": "^4.16.4"
+  }
+}
